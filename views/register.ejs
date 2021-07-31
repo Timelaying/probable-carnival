@@ -1,0 +1,20 @@
+<h1>Register</h1>
+<form action="/register" method="POST">
+<div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required> <!-- the name="name" is the way we will acess the name inputed on the server -->
+</div><div><br>
+<div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required> <!-- the name="email" is the way we will acess the email inputed on the server -->
+</div><br>
+<div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required> <!-- the name="password" is the way we will acess the password inputed on the server -->
+</div><br>
+
+<button type="submit">Register</button>
+
+</form><br>
+<div> <a href="/login">Login</a> </div><!-- to redirect to the login page-->
+
